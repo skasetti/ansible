@@ -1,4 +1,4 @@
-# Playbook is list of place always start with -
+# Playbook is list of plays, always it start with -
 - name: ping the node
   hosts: mongodb
   # this is list of tasks/modules/collections
