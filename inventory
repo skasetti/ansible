@@ -4,7 +4,7 @@
 
 
 [mongodb]
-roboshop-us-dev-db-mongodb-01.practiceonline.online
+172.31.47.93
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
