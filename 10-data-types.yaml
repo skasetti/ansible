@@ -17,14 +17,14 @@
     ansible.builtin.debug:
       msg: "{{AGE}}"
   - name: print String variable
-      ansible.builtin.debug:
-        msg: "{{NAME}}"
+    ansible.builtin.debug:
+      msg: "{{NAME}}"
   - name: print boolean variable
-      ansible.builtin.debug:
-        msg: "{{isDevOps}}"
+    ansible.builtin.debug:
+      msg: "{{isDevOps}}"
   - name: print list variables
-      ansible.builtin.debug:
-        msg: "{{Skills}}"
+    ansible.builtin.debug:
+      msg: "{{Skills}}"
   - name: print Map variable
-      ansible.builtin.debug:
-        msg: "{{EXPERIENCE}}"
+    ansible.builtin.debug:
+      msg: "{{EXPERIENCE}}"
