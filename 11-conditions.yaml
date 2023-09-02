@@ -20,3 +20,6 @@
     ansible.builtin.user:
       name: roboshop
     when: output.rc !=0 #if this expression is true then only this module will run
+
+# assignment: take user name as variable, and then dynamically check user exists or not then create
+# assignemnt: chack a directory exists or not, if not exists create it
