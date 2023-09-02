@@ -6,8 +6,8 @@
     # when the user does not exists, ansible treating this is failure and come out by default
     # ignore_error: true
     ansible.builtin.command: id roboshop
-      register: output # output is variable name
-      ignore_error: true
+    register: output # output is variable name
+    ignore_error: true
 
   - name: print the command output
     ansible.builtin.debug:
